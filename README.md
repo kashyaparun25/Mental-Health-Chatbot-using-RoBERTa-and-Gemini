@@ -1,5 +1,24 @@
 # Mental Health Chatbot using RoBERTa and Gemini
 
+
+---
+
+### Project Overview
+This repository contains the implementation of a mental health chatbot designed to classify user emotions and provide solutions for emotional well-being. The chatbot leverages state-of-the-art NLP models, the GoEmotions dataset, and Gemini AI for response generation.
+
+#### Key Features:
+- **Emotion Detection**: Identifies 28 emotions using fine-tuned RoBERTa and Ekman mappings.
+- **Solution-Oriented Responses**: Generates actionable mental health responses via Gemini API.
+- **Interactive UI**: A user-friendly chatbot interface built using Streamlit.
+- **Visualization**: Bar charts showcasing emotion probabilities.
+
+---
+
+### Model Selection and Architecture
+
+#### RoBERTa (Robustly Optimized BERT Approach)
+RoBERTa was chosen as the primary model due to its state-of-the-art performance in natural language understanding tasks. It provides robust contextual embeddings, making it suitable for nuanced emotion classification tasks.
+
 #### Repository Structure
 ```
 Mental_Health_Chatbot/
@@ -22,24 +41,6 @@ Mental_Health_Chatbot/
 │   ├── bert+lstm_accuracy.png # BERT+LSTM accuracy visualization
 │   ├── class_distribution.png # Dataset class distribution visualization
 ```
-
----
-
-### Project Overview
-This repository contains the implementation of a mental health chatbot designed to classify user emotions and provide solutions for emotional well-being. The chatbot leverages state-of-the-art NLP models, the GoEmotions dataset, and Gemini AI for response generation.
-
-#### Key Features:
-- **Emotion Detection**: Identifies 28 emotions using fine-tuned RoBERTa and Ekman mappings.
-- **Solution-Oriented Responses**: Generates actionable mental health responses via Gemini API.
-- **Interactive UI**: A user-friendly chatbot interface built using Streamlit.
-- **Visualization**: Bar charts showcasing emotion probabilities.
-
----
-
-### Model Selection and Architecture
-
-#### RoBERTa (Robustly Optimized BERT Approach)
-RoBERTa was chosen as the primary model due to its state-of-the-art performance in natural language understanding tasks. It provides robust contextual embeddings, making it suitable for nuanced emotion classification tasks.
 
 **Key Features:**
 - Fine-tuned on the GoEmotions dataset.
