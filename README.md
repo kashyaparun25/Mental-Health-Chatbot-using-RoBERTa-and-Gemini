@@ -21,7 +21,7 @@ RoBERTa was chosen as the primary model due to its state-of-the-art performance 
 
 #### Repository Structure
 ```
-Mental_Health_Chatbot/
+Mental-Health-Chatbot-using-RoBERTa-and-Gemini/
 ├── model_weights.pth       # Pre-trained model weights
 ├── special_tokens_map.json # Tokenizer special tokens mapping
 ├── tokenizer/              # Tokenizer configurations and vocab
@@ -32,14 +32,14 @@ Mental_Health_Chatbot/
 ├── README.md               # Project documentation
 ├── resources/              # Supporting documentation and images
 │   ├── DL_Presentation.pdf
-│   ├── BERT+LSTM.pdf
-│   ├── RoBERTa.pdf
-│   ├── chatbot_workflow.png # Workflow diagram
-│   ├── RoBERTa_f1.png       # RoBERTa F1-scores visualization
-│   ├── RoBERTa_accuracy.png # RoBERTa accuracy visualization
-│   ├── bert+lstm_f1.png     # BERT+LSTM F1-scores visualization
-│   ├── bert+lstm_accuracy.png # BERT+LSTM accuracy visualization
-│   ├── class_distribution.png # Dataset class distribution visualization
+│   ├── BERT_+_LSTM_GoEmotion_FINAL.ipynb            # LSTM with BERT tokenizers Notebook
+│   ├── RoBERTa_Cosine_Learning_Rate_FINAL.ipynb     # Fine-tuning RoBERTa on GoEmotion Dataset Notebook
+│   ├── chatbot_workflow.png                         # Workflow diagram
+│   ├── RoBERTa_f1.png                               # RoBERTa F1-scores visualization
+│   ├── RoBERTa_accuracy.png                         # RoBERTa accuracy visualization
+│   ├── bert+lstm_f1.png                             # BERT+LSTM F1-scores visualization
+│   ├── bert+lstm_accuracy.png                       # BERT+LSTM accuracy visualization
+│   ├── class_distribution.png                       # Dataset class distribution visualization
 ```
 
 **Key Features:**
