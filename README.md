@@ -100,23 +100,28 @@ This baseline model combines BERT embeddings with a bidirectional LSTM for seque
 ### Visualization of Results
 
 #### Class Distribution
+
 ![Class Distribution](resources/class_distribution.png)
 - The dataset contains a highly imbalanced distribution of emotion classes, with "neutral" being the most frequent label.
 
 #### Model Performance
 1. **RoBERTa F1-Scores**
+
 ![RoBERTa F1-Scores](resources/RoBERTa_f1.png)
    - RoBERTa achieves high F1-scores for common emotions like "joy" and "gratitude" but struggles with rare emotions such as "relief."
 
 2. **RoBERTa Accuracy**
+
 ![RoBERTa Accuracy](resources/RoBERTa_accuracy.png)
    - High accuracy for frequently occurring emotions, demonstrating robust classification.
 
 3. **BERT+LSTM F1-Scores**
+
 ![BERT+LSTM F1-Scores](resources/bert+lstm_f1.png)
    - Shows weaker performance compared to RoBERTa, particularly for underrepresented emotions.
 
 4. **BERT+LSTM Accuracy**
+
 ![BERT+LSTM Accuracy](resources/bert+lstm_accuracy.png)
    - Highlights the challenges faced by BERT+LSTM in handling class imbalance and nuanced emotions.
 
