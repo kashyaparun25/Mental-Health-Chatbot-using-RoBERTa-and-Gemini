@@ -19,6 +19,8 @@ This repository contains the implementation of a mental health chatbot designed 
 #### RoBERTa (Robustly Optimized BERT Approach)
 RoBERTa was chosen as the primary model due to its state-of-the-art performance in natural language understanding tasks. It provides robust contextual embeddings, making it suitable for nuanced emotion classification tasks.
 
+## You can download the trained model from my Hugging Face repo [RoBERTa_GoEmotion](kashyaparun/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion)
+
 #### Repository Structure
 ```
 Mental-Health-Chatbot-using-RoBERTa-and-Gemini/
