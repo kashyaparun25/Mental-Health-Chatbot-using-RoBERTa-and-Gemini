@@ -21,11 +21,10 @@ RoBERTa was chosen as the primary model due to its state-of-the-art performance 
 
 ---
 
-|-----------------------------------------------------------------------------------------------------------------------------|
-|   **NOTE**                                                                                                                  |
-|   ## You can download the trained model from my Hugging Face repo                                                           |
-|   👉   [RoBERTa_GoEmotion](https://huggingface.co/kashyaparun/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion) |
-|------------------------------------------------------------------------------------------------------------------------------|
+### You can download the trained model from my Hugging Face repo 
+
+👉 [RoBERTa_GoEmotion](https://huggingface.co/kashyaparun/Mental-Health-Chatbot-using-RoBERTa-fine-tuned-on-GoEmotion)
+
 
 #### Repository Structure
 ```
